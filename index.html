@@ -19,62 +19,69 @@
     </style>
   </head>
   <body>
-    <div class="w-10/12 mx-auto flex flex-col space-y-3">
-      <nav class="flex justify-between py-3">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="HomeAway" />
-        </div>
-        <div class="nav-links">
-          <div>
-            <ul class="flex space-x-6">
-              <li>
-                <a
-                  href="#"
-                  class="border border-1 border-black rounded-full px-4 py-1"
-                  >download App</a
-                >
-              </li>
-              <li><a href="#">Trip planner</a></li>
-              <li><a href="#">Register accomodation</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">My journeys</a></li>
-              <li><a href="#">Register</a></li>
-            </ul>
+    <div class="w-screen">
+      <section class="w-full bg-white">
+        <nav class="flex justify-between items-center h-20 w-10/12 mx-auto">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="HomeAway" />
           </div>
-        </div>
-      </nav>
-      <main>
-        <div>
+          <div class="nav-links">
+            <div>
+              <ul class="flex space-x-6">
+                <li>
+                  <a
+                    href="#"
+                    class="border border-1 border-black rounded-full px-4 py-1"
+                    >download App</a
+                  >
+                </li>
+                <li><a href="#">Trip planner</a></li>
+                <li><a href="#">Register accomodation</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">My journeys</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section
+        style="background-image: url('./images/heroimg.png')"
+        class="flex items-center justify-center w-full h-[550px] bg-cover bg-center bg-no-repeat"
+      >
+        <main class="w-10/12 mx-auto flex flex-col space-y-3 bg-red-700">
           <h2>Find your place for each other</h2>
-          <div class="bg-white rounded-lg p-2 w-2/3 mx-auto flex space-x-3">
+          <div class="bg-white rounded-lg p-2 mx-auto flex space-x-3">
             <div class="border border-1 border-gray-900 rounded-lg py-1">
-                <div class="icon"></div>
-                <input
-                    type="text"
-                    placeholder="Where do you want to go?"
-                    class="w-96 p-2 rounded-lg"
-                />
+              <div class="icon"></div>
+              <input
+                type="text"
+                placeholder="Where do you want to go?"
+                class="w-96 p-2 rounded-lg"
+              />
             </div>
             <div class="border border-1 border-gray-900 rounded-lg py-1">
-                <div class="icon"></div>
-                <input
-                    type="text"
-                    placeholder="Where do you want to go?"
-                    class="w-96 p-2 rounded-lg"
-                />
+              <div class="icon"></div>
+              <input
+                type="text"
+                placeholder="Where do you want to go?"
+                class="w-96 p-2 rounded-lg"
+              />
             </div>
             <div class="border border-1 border-gray-900 rounded-lg py-1">
-                <div class="icon"></div>
-                <input
-                    type="text"
-                    placeholder="Where do you want to go?"
-                    class="w-96 p-2 rounded-lg"
-                />
+              <div class="icon"></div>
+              <input
+                type="text"
+                placeholder="Where do you want to go?"
+                class="w-96 p-2 rounded-lg"
+              />
             </div>
           </div>
-        </div>
-      </main>
-      <footer>FOOTER</footer>
+        </main>
+      </section>
+      <section>
+        <footer>FOOTER</footer>
+      </section>
     </div>
   </body>
 </html>
