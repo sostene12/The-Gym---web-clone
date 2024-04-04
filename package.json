@@ -1,0 +1,14 @@
+{
+  "name": "the-gym---web-clone",
+  "version": "1.0.0",
+  "description": "web cloning",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./input.css -o ./styles.css --watch"
+  },
+  "author": "Sostene",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
