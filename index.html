@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
-</head>
-<body>
-    <h2 class="text-3xl font-bold underline">Hellooo</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <title>
+      HomeAway | Book your holiday apartment: apartments, holiday home
+    </title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+      :root {
+        font-family: "Noto Sans", sans-serif;
+        background-color: #f7f7f8;
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-10/12 mx-auto flex flex-col space-y-3">
+      <nav class="flex justify-between py-3">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="HomeAway" />
+        </div>
+        <div class="nav-links">
+          <div>
+            <ul class="flex space-x-6">
+              <li>
+                <a
+                  href="#"
+                  class="border border-1 border-black rounded-full px-4 py-1"
+                  >download App</a
+                >
+              </li>
+              <li><a href="#">Trip planner</a></li>
+              <li><a href="#">Register accomodation</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">My journeys</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div>
+          <h2>Find your place for each other</h2>
+          <div class="bg-white rounded-lg p-2 w-2/3 mx-auto flex space-x-3">
+            <div class="border border-1 border-gray-900 rounded-lg py-1">
+                <div class="icon"></div>
+                <input
+                    type="text"
+                    placeholder="Where do you want to go?"
+                    class="w-96 p-2 rounded-lg"
+                />
+            </div>
+            <div class="border border-1 border-gray-900 rounded-lg py-1">
+                <div class="icon"></div>
+                <input
+                    type="text"
+                    placeholder="Where do you want to go?"
+                    class="w-96 p-2 rounded-lg"
+                />
+            </div>
+            <div class="border border-1 border-gray-900 rounded-lg py-1">
+                <div class="icon"></div>
+                <input
+                    type="text"
+                    placeholder="Where do you want to go?"
+                    class="w-96 p-2 rounded-lg"
+                />
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>FOOTER</footer>
+    </div>
+  </body>
 </html>
